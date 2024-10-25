@@ -1,0 +1,337 @@
+<!-- Creador: Luz Celeste Morales Ramos-->
+<!-- Pratica: tablas-->
+<html>
+    <head>
+        <title>TABLAS</title>
+        <link rel="stylesheet" href="archivocss/style_page.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>TABLAS</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formulario.html">Formularios</a>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Tabla 1 simple con separación de border de celda</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget imperdiet lorem. Fusce eleifend tincidunt nulla, in rutrum ex condimentum placerat. Praesent est lectus, efficitur sit amet turpis at, ultricies lacinia turpis. Donec ac nisi at lectus fermentum commodo et a ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam interdum sit amet nunc at gravida. Donec vitae mi ac augue molestie aliquet a nec eros. Donec eget turpis ut augue tristique varius. Etiam ac viverra sem, ut ultrices orci. Aliquam semper purus ut commodo tempor. Nulla eget ante in velit dictum rhoncus at eu leo. Duis convallis, quam et facilisis maximus, tellus massa blandit libero, vel aliquet arcu urna id lectus.</p>
+                <table border="1">
+                    <thead>
+                        <tr> 
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Maria</td>
+                            <td>Colorado</td>
+                            <td>Gomez</td>
+                            <td>222-225-226-6769</td>
+                            <td>color.jjasjs@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Javier</td>
+                            <td>Martinez</td>
+                            <td>Lopez</td>
+                            <td>662-345-7890</td>
+                            <td>javier.martinez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Ana</td>
+                            <td>Louis</td>
+                            <td>Perez</td>
+                            <td>445-556-766-3467</td>
+                            <td>Ana_1234@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Clara</td>
+                            <td>Fernandez</td>
+                            <td>Sanchez</td>
+                            <td>345-567-467-8572</td>
+                            <td>fernandez.uy@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Pedro</td>
+                            <td>Sanchez</td>
+                            <td>Fernandez</td>
+                            <td>467-224-215-2213</td>
+                            <td>Sanchez.fernandez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>luis</td>
+                            <td>Gomez</td>
+                            <td>Zaragoza</td>
+                            <td>221-456-111-2474</td>
+                            <td>luis.m3jo@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tablas 2 modificada por clase y uso de colspan</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget imperdiet lorem. Fusce eleifend tincidunt nulla, in rutrum ex condimentum placerat. Praesent est lectus, efficitur sit amet turpis at, ultricies lacinia turpis. Donec ac nisi at lectus fermentum commodo et a ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam interdum sit amet nunc at gravida. Donec vitae mi ac augue molestie aliquet a nec eros. Donec eget turpis ut augue tristique varius. Etiam ac viverra sem, ut ultrices orci. Aliquam semper purus ut commodo tempor. Nulla eget ante in velit dictum rhoncus at eu leo. Duis convallis, quam et facilisis maximus, tellus massa blandit libero, vel aliquet arcu urna id lectus.</p>
+                <table border="1" id="" class="tabla1">
+                    <thead>
+                        <tr> 
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th colspan="2">Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Maria</td>
+                            <td>Colorado</td>
+                            <td>Gomez</td>
+                            <td>222-225-226-6769</td>
+                            <td></td>
+                            <td>color.jjasjs@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Javier</td>
+                            <td>Martinez</td>
+                            <td>Lopez</td>
+                            <td>662-345-7890</td>
+                            <td>222-225-226-6769</td>
+                            <td>javier.martinez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Ana</td>
+                            <td>Louis</td>
+                            <td>Perez</td>
+                            <td>445-556-766-3467</td>
+                            <td>222-225-226-6769</td>
+                            <td>Ana_1234@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Clara</td>
+                            <td>Fernandez</td>
+                            <td>Sanchez</td>
+                            <td>345-567-467-8572</td>
+                            <td>662-345-7890</td>
+                            <td>fernandez.uy@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Pedro</td>
+                            <td>Sanchez</td>
+                            <td>Fernandez</td>
+                            <td>467-224-215-2213</td>
+                            <td></td>
+                            <td>Sanchez.fernandez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>luis</td>
+                            <td>Gomez</td>
+                            <td>Zaragoza</td>
+                            <td>221-456-111-2474</td>
+                            <td>662-345-7890</td>
+                            <td>luis.m3jo@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tablas 3 zebra</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget imperdiet lorem. Fusce eleifend tincidunt nulla, in rutrum ex condimentum placerat. Praesent est lectus, efficitur sit amet turpis at, ultricies lacinia turpis. Donec ac nisi at lectus fermentum commodo et a ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam interdum sit amet nunc at gravida. Donec vitae mi ac augue molestie aliquet a nec eros. Donec eget turpis ut augue tristique varius. Etiam ac viverra sem, ut ultrices orci. Aliquam semper purus ut commodo tempor. Nulla eget ante in velit dictum rhoncus at eu leo. Duis convallis, quam et facilisis maximus, tellus massa blandit libero, vel aliquet arcu urna id lectus.</p>
+                <table border="1" id="tabla2">
+                    <thead>
+                        <tr> 
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Maria</td>
+                            <td>Colorado</td>
+                            <td>Gomez</td>
+                            <td>222-225-226-6769</td>
+                            <td>color.jjasjs@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Javier</td>
+                            <td>Martinez</td>
+                            <td>Lopez</td>
+                            <td>662-345-7890</td>
+                            <td>javier.martinez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Ana</td>
+                            <td>Louis</td>
+                            <td>Perez</td>
+                            <td>445-556-766-3467</td>
+                            <td>Ana_1234@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Clara</td>
+                            <td>Fernandez</td>
+                            <td>Sanchez</td>
+                            <td>345-567-467-8572</td>
+                            <td>fernandez.uy@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Pedro</td>
+                            <td>Sanchez</td>
+                            <td>Fernandez</td>
+                            <td>467-224-215-2213</td>
+                            <td>Sanchez.fernandez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>luis</td>
+                            <td>Gomez</td>
+                            <td>Zaragoza</td>
+                            <td>221-456-111-2474</td>
+                            <td>luis.m3jo@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tablas 4 Hover</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget imperdiet lorem. Fusce eleifend tincidunt nulla, in rutrum ex condimentum placerat. Praesent est lectus, efficitur sit amet turpis at, ultricies lacinia turpis. Donec ac nisi at lectus fermentum commodo et a ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam interdum sit amet nunc at gravida. Donec vitae mi ac augue molestie aliquet a nec eros. Donec eget turpis ut augue tristique varius. Etiam ac viverra sem, ut ultrices orci. Aliquam semper purus ut commodo tempor. Nulla eget ante in velit dictum rhoncus at eu leo. Duis convallis, quam et facilisis maximus, tellus massa blandit libero, vel aliquet arcu urna id lectus.</p>
+                <table border="1" id="tabla3">
+                    <thead>
+                        <tr> 
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Maria</td>
+                            <td>Colorado</td>
+                            <td>Gomez</td>
+                            <td>222-225-226-6769</td>
+                            <td>color.jjasjs@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Javier</td>
+                            <td>Martinez</td>
+                            <td>Lopez</td>
+                            <td>662-345-7890</td>
+                            <td>javier.martinez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Ana</td>
+                            <td>Louis</td>
+                            <td>Perez</td>
+                            <td>445-556-766-3467</td>
+                            <td>Ana_1234@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Clara</td>
+                            <td>Fernandez</td>
+                            <td>Sanchez</td>
+                            <td>345-567-467-8572</td>
+                            <td>fernandez.uy@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Pedro</td>
+                            <td>Sanchez</td>
+                            <td>Fernandez</td>
+                            <td>467-224-215-2213</td>
+                            <td>Sanchez.fernandez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>luis</td>
+                            <td>Gomez</td>
+                            <td>Zaragoza</td>
+                            <td>221-456-111-2474</td>
+                            <td>luis.m3jo@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section style="overflow-x: auto;">
+                <h2>Tablas 5 overflow</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget imperdiet lorem. Fusce eleifend tincidunt nulla, in rutrum ex condimentum placerat. Praesent est lectus, efficitur sit amet turpis at, ultricies lacinia turpis. Donec ac nisi at lectus fermentum commodo et a ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam interdum sit amet nunc at gravida. Donec vitae mi ac augue molestie aliquet a nec eros. Donec eget turpis ut augue tristique varius. Etiam ac viverra sem, ut ultrices orci. Aliquam semper purus ut commodo tempor. Nulla eget ante in velit dictum rhoncus at eu leo. Duis convallis, quam et facilisis maximus, tellus massa blandit libero, vel aliquet arcu urna id lectus.</p>
+                <table border="1" id="tabla1" class="tabla1">
+                    <thead>
+                        <tr> 
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Maria</td>
+                            <td>Colorado</td>
+                            <td>Gomez</td>
+                            <td>222-225-226-6769</td>
+                            <td>color.jjasjs@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Javier</td>
+                            <td>Martinez</td>
+                            <td>Lopez</td>
+                            <td>662-345-7890</td>
+                            <td>javier.martinez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Ana</td>
+                            <td>Louis</td>
+                            <td>Perez</td>
+                            <td>445-556-766-3467</td>
+                            <td>Ana_1234@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Clara</td>
+                            <td>Fernandez</td>
+                            <td>Sanchez</td>
+                            <td>345-567-467-8572</td>
+                            <td>fernandez.uy@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Pedro</td>
+                            <td>Sanchez</td>
+                            <td>Fernandez</td>
+                            <td>467-224-215-2213</td>
+                            <td>Sanchez.fernandez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>luis</td>
+                            <td>Gomez</td>
+                            <td>Zaragoza</td>
+                            <td>221-456-111-2474</td>
+                            <td>luis.m3jo@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+        </main>
+                <footer>
+            <h5>Elabora por Luz Celeste Morales Ramos</h5>
+            <h5>Diseño de Intezfaz para el Usuario</h5>
+        </footer>
+    </body>
+    </html>

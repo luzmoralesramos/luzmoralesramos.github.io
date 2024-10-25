@@ -1,0 +1,442 @@
+<link rel="stylesheet" href="archivocss/style_page.css" type="text/css">{
+margin: 0px;
+padding: 0px;	
+}
+
+header, nav, main, footer{
+     width: 1100px;
+     color: #FBFFCD;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 30px;
+
+}
+header{
+     height: 150px;
+     background-color: #000000;
+     font-size: 32px;
+}
+nav{
+     height: 50px;
+     background-color: #001F36;
+}
+nav Ul{
+     list-style-type: none;
+}
+nav li{
+     display: inline-block;
+     margin-left: 18px;
+     margin-right: 10px;
+     text-align: center;
+}
+main{
+     height: auto;
+     background-color: #79AE92;             
+}
+section{
+     width: 900px;
+     height: auto;
+     background-color: #FBFFCD;
+     margin-bottom: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+     padding: 30px;
+     color: #79AE92;
+}                
+footer{
+     height: 20px;
+     background-color: #001F36; 
+     text-align: center;
+}
+h2{
+     margin-bottom: 20px;
+     padding-bottom: 20px;
+}
+h5{
+     font-size: 14px;
+}
+h1,h5{
+     text-align: center;
+}
+p a:visited{
+     color: #000000;
+}
+p a:link{
+    color: #1C5560;
+    font-weight: bolder;
+}
+p a:active{
+    color: #79AE72;
+} 
+nav ul li{
+    width: 75px;
+    background-color: #1C5560;
+    color: #FBFFCD;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+nav ul li a{
+   text-decoration: none;
+}
+nav ul a:visited, ul a:link{
+    color: #FBFFCD;
+}
+nav ul a:hover{
+    color: #1C5560;
+    font-weight: bolder;
+}
+main nav{
+    width: 600px;
+    text-align: center;
+}
+            
+nav li:hover, nav li a:hover{
+    background-color:#FBFFCD;
+    color: #1C5560;
+}
+img{
+    display: block;
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sombrilla_png{
+    width: 200px;
+    height: 200px;
+    float: right;
+    padding-left: 20px;
+}
+p{
+    padding-bottom: 20px;
+}
+#vacaciones_jpg{
+    width: 70px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+#Pelota{
+    display: block;
+    margin: 0 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img_filtro img{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    display: inline-block;  
+}
+
+
+#filtro1{
+    filter: brightness(150%);
+
+}
+
+#filtro2{
+    filter: contrast(200%);
+}
+
+#filtro3{
+    filter: grayscale(150%);
+}
+
+#filtro4{
+    filter: sepia(120%);
+}
+
+#filtro5{
+    filter: saturate(150%);
+}
+
+#filtro6{
+    filter: opacity(0.5);
+}
+
+#filtro7{
+    filter: invert(100%);
+}
+
+#filtro8{
+    filter: blur(10px);
+}
+
+#filtro9{
+    filter: drop-shadow(5px 5px 10px black);
+    
+}
+
+#filtro10{
+    filter: contrast(150%) drop-shadow(6px 8px 10px black);
+}
+
+#filtro11{
+    filter: invert(80%) drop-shadow(10px 15px 10px green);
+}
+
+#filtro12{
+    filter: blur(2px) contrast(50%);
+}
+main section ol li ul{
+              padding-left: 20px;  
+            }
+            
+            main section ol ul{
+              padding-left: 20px;  
+            }
+             
+            main section ol{
+              padding-left: 20px;  
+            }
+            
+            main section ul{
+              padding-left: 20px;  
+            }
+
+table{
+    color: #1C5560;
+    margin: 0 auto; 
+    padding: 10px;
+    border: 20px #1C5560;
+}
+.tabla1{
+    width: 900px;
+    border: #001F36;
+    border-collapse: collapse;
+}
+.tabla1 th{
+    background-color:#001F36;
+    height: 50px;
+}
+.tabla1 tbody{
+    background-color:#79AE72;
+    color: #FBFFCD;
+    height: 40px;
+    margin: 20px;
+}
+.tabla1 td{
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+    width: 20px;
+}
+.tabla1 td,#tabla1 th{
+    padding: 5px;
+    text-align: center;
+    border-width: 3px;
+    border-style: groove;
+    border-color: #1C5560;
+}
+#tabla1{
+    width: 1000;
+}
+#tabla2{
+     width: 800px;
+    border: #001F36;
+     border-collapse: collapse;
+}
+#tabla2 th{
+    background-color: #001F36;
+}
+#tabla2 tr:nth-child(even){
+    background-color: #79AE72;
+}
+#tabla2 tbody tr:nth-child(odd){
+    background-color: #79AE92;
+}
+#tabla3{
+   width: 700px;
+    border: 30px #001F36;
+     border-collapse: collapse;
+}
+#tabla3 th{
+    background-color: #001F36;
+}
+#tabla3 tr:hover{
+    background-color: #79AE72;
+    color: #001F36;
+}
+#label{
+    color: #FBFFCD;
+    font-weight: bolder;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	
+}
+#color {
+    width: 100%;
+    height: 8%;
+    background-color: #FBFFCD;
+    margin-bottom: 20px;
+}
+
+#time {
+    background-color: #FBFFCD;
+    color: #001F36;
+    width: 49%;
+    margin-bottom: 20px;
+}
+
+#range {
+    width: 90%;
+    margin-bottom: 20px;
+}
+#date {
+	width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #FBFFCD;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #001F36;
+}
+
+
+#imput{
+    background-color: #FBFFCD;
+    color: #001F36;
+
+}
+#form1, #form2, #form3{
+    display: 50%;
+    padding: 30px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #79AE92;
+    color: #1C5560;
+    width: 30%;
+}
+#form2 #pais {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #001F36;
+    background-color: #FBFFCD;
+    display: block;
+}
+
+input[type=submit],input[type=submit]{
+    display: block;
+    padding: 5px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #001F36;
+    color: #1C5560;
+}
+input[type=password],input[type=text], input[type=email] {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #FBFFCD;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #001F36;
+}
+#form3 input[type=checkbox]{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#form2 #number,#form3 #number {
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #FBFFCD;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #001F36;
+    display: block;
+}
+
+#titulo3form {
+    display: block;
+    color: #FBFFCD;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-size: x-large;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #001F36;
+}
+#titulo2form {
+    color: #001F36;
+    text-align: center;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    font-size: small;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+#nosi {
+    width: 100%;
+    color: #001F36;
+    text-align: center;
+    font-size: x-small;
+    height: auto;
+	
+}
+
+#archivo {
+    width: 95%;
+    height: auto;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    color: #001F36;
+    text-align: center;
+    margin-bottom: 30px;
+	
+}
+#termino {
+	width: 100%;
+    color: #001F36;
+    text-align: center;
+    font-size: x-small;
+    height: auto;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
